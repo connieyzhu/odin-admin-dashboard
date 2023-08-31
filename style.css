@@ -163,7 +163,9 @@
 .projects{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .project-cards{
@@ -175,15 +177,19 @@
 
 .card{
     background-color: white;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .card.purple{
-    padding: 30px;
+    padding: 20px 15px;
+    border-left: 6px solid var(--purple);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card.purple h3{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .card.purple p{
@@ -191,8 +197,14 @@
     color: gray;
 }
 
+.card.purple .icons{
+    display: flex;
+    gap: 15px;
+    align-self: end;
+}
+
 .card.purple img{
-    width: 20px;
+    width: 18px;
 }
 
 .announcments{
