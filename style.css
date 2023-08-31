@@ -59,6 +59,43 @@
 
 .header{
     grid-column: 2 / 3;
+    padding: 15px 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .icons {
+    width: 20px;
+}
+
+.top .profilepic{
+    width: 35px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+}
+
+.search input{
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+.profile{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    gap: 15px;
 }
 
 .dashboard{
